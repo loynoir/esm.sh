@@ -37,11 +37,11 @@
       <p><em style="color: #999;">Loading...</em></p>
     </main>
   </div>
-  <script>
+  <!-- <script>
     if (location.protocol === 'http:' && location.hostname !== 'localhost') {
       location.href = 'https://' + location.host + location.pathname + location.search
     }
-  </script>
+  </script> -->
   <script type="module">
     const query = new URLSearchParams(location.search)
     if (query.has('test')) {
